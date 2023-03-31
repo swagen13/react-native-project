@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "262551530749",
+    "firebase_url": "https://plawarn-71b42.firebaseio.com",
+    "project_id": "plawarn-71b42",
+    "storage_bucket": "plawarn-71b42.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:262551530749:android:37ac8455945a155c81e294",
+        "android_client_info": {
+          "package_name": "com.plawarn.plawarn_mobil_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "262551530749-c02d50s2jo2vjqp53aq3jtm5a3490hsu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAT_QkIU_o74NPGTYRKZoUhK6Lo5wtMO44"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "262551530749-c02d50s2jo2vjqp53aq3jtm5a3490hsu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

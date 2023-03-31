@@ -1,6 +1,24 @@
 {
   "expo": {
     "name": "react-native-project",
+    "plugins": [
+      "@notifee/react-native"  ,
+      "@react-native-firebase/app",  
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 33,
+            "targetSdkVersion": 33,
+            "buildToolsVersion": "33.0.0"
+          },
+          "ios": {
+            "useFrameworks": "static",
+            "deploymentTarget": "13.0"
+          }
+        }
+      ]  
+    ],
     "slug": "react-native-project",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -22,11 +40,23 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },     
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyApSQ6aKx3a3HDucnIKyG_FmcnVb3wQrms"
+        }
+      },
+      "googleServicesFile": "./google-services-android.json",
+      "package": "com.plawarn.plawarn_mobil_app"
     },
     "web": {
       "bundler": "metro",
       "favicon": "./assets/images/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "41a5270b-7866-417f-b305-351607117c01"
+      }
     }
   }
 }
