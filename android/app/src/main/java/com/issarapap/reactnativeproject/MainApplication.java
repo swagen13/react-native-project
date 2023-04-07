@@ -1,4 +1,4 @@
-package com.plawarn.plawarn_mobil_app;
+package com.issarapap.reactnativeproject;
 
 import android.app.Application;
 import android.content.res.Configuration;

@@ -47,7 +47,7 @@
         }
       },
       "googleServicesFile": "./google-services-android.json",
-      "package": "com.plawarn.plawarn_mobil_app"
+      "package": "com.issarapap.reactnativeproject"
     },
     "web": {
       "bundler": "metro",
